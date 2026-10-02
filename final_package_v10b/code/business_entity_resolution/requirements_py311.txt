@@ -1,0 +1,19 @@
+# Stages A and B as originally run: Python 3.11.16 on Linux (conda env), NVIDIA RTX PRO 6000 (CUDA 12.8 wheels)
+lightgbm==4.7.0
+llvmlite==0.43.0
+numba==0.60.0
+numpy==1.26.4
+pandas==2.1.0
+pyarrow==18.0.0
+RapidFuzz==3.14.6
+scikit-learn==1.5.1
+scipy==1.14.0
+Unidecode==1.4.0
+# cross-encoder stage (install torch from the CUDA index:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128)
+torch==2.11.0
+transformers==5.17.0
+sentencepiece==0.2.2
+tokenizers==0.23.2
+safetensors==0.8.0
+huggingface_hub==1.33.0

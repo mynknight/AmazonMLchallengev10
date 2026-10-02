@@ -1,0 +1,21 @@
+# Tested with Python 3.14.6 on Linux (conda env "mfa"), NVIDIA RTX PRO 6000, CUDA 12.8 wheels.
+# Stages C and D (src/v9, src/v10) ran in this environment; stages A and B originally ran with
+# requirements_py311.txt.
+lightgbm==4.7.0
+llvmlite==0.49.0
+numba==0.67.0
+numpy==2.5.2
+pandas==3.0.6
+pyarrow==23.0.1
+RapidFuzz==3.14.6
+scikit-learn==1.9.0
+scipy==1.18.0
+Unidecode==1.4.0
+# cross-encoders (install torch from the CUDA index first:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128)
+torch==2.11.0
+transformers==5.17.0
+sentencepiece==0.2.2
+tokenizers==0.23.2
+safetensors==0.8.0
+huggingface_hub==1.28.0

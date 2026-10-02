@@ -1,0 +1,7 @@
+no-CE model               held-out test-like F0.5 0.98627
+no-CE model + CE veto     held-out test-like F0.5 0.98861
+veto only (model threshold fixed) held-out test-like F0.5 0.98813
+chosen: ct: t=0.7 veto<0.2 (vs t=0.8); ia: t=0.7 veto<0.1 (vs t=0.8); wa: t=0.7 veto<0.2 (vs t=0.72); kl: t=0.72 veto<0.2 (vs t=0.84); od: t=0.7 veto<0.2 (vs t=0.82)
+veto < 0.01: drops 1,056 accepted pairs (0.24%); of them true 0.031
+veto < 0.05: drops 1,379 accepted pairs (0.31%); of them true 0.120
+veto < 0.2: drops 1,742 accepted pairs (0.39%); of them true 0.233

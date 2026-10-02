@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+*.conda/
+
+# Models / checkpoints
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Generated outputs
+output/
+outputs/
+work/
+work_*/
+submissions/
+*.tsv
+*.csv
+
+# Logs
+*.log
+
+# Secrets
+.env
+*.pem
+.aws/
+
+# Temporary
+tmp/
+temp/
+.cache/

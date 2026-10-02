@@ -1,0 +1,15 @@
+  pr["ce_fr"] = np.nanmean([np.load(f) for f in fr_files], axis=0)
+  pr["ce_k4"] = np.nanmean([np.load(os.path.join(CE4, f"ce_e5k4_f{k}_test.npy")) for k in range(4)], axis=0)
+v6a France matches: 845,562 (France CE folds available: 4)
+  France-adapted CE      veto < 0.02: drops   2,205 (0.26%) | share dropped among noise-word 0.003, word-swap 0.015, exact-name 0.0011
+  France-adapted CE      veto < 0.05: drops   3,076 (0.36%) | share dropped among noise-word 0.004, word-swap 0.021, exact-name 0.0015
+  France-adapted CE      veto < 0.1 : drops   3,884 (0.46%) | share dropped among noise-word 0.004, word-swap 0.026, exact-name 0.0019
+  France-adapted CE      veto < 0.2 : drops   4,834 (0.57%) | share dropped among noise-word 0.005, word-swap 0.033, exact-name 0.0025
+  France-adapted CE      veto < 0.3 : drops   5,595 (0.66%) | share dropped among noise-word 0.006, word-swap 0.038, exact-name 0.0030
+  France-adapted CE      veto < 0.5 : drops   7,141 (0.84%) | share dropped among noise-word 0.007, word-swap 0.045, exact-name 0.0039
+  plain CE (not usable)  veto < 0.02: drops  18,699 (2.21%) | share dropped among noise-word 0.297, word-swap 0.016, exact-name 0.0025
+  plain CE (not usable)  veto < 0.05: drops  23,265 (2.75%) | share dropped among noise-word 0.371, word-swap 0.019, exact-name 0.0030
+  plain CE (not usable)  veto < 0.1 : drops  26,908 (3.18%) | share dropped among noise-word 0.425, word-swap 0.021, exact-name 0.0038
+  plain CE (not usable)  veto < 0.2 : drops  31,227 (3.69%) | share dropped among noise-word 0.476, word-swap 0.023, exact-name 0.0056
+  plain CE (not usable)  veto < 0.3 : drops  34,733 (4.11%) | share dropped among noise-word 0.509, word-swap 0.025, exact-name 0.0078
+  plain CE (not usable)  veto < 0.5 : drops  42,163 (4.99%) | share dropped among noise-word 0.553, word-swap 0.028, exact-name 0.0146
